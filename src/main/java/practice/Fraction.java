@@ -6,13 +6,17 @@ package practice;
  *
  */
 public class Fraction {
+    int num;
+    int den;
 
     // REPLACE WITH YOUR SOLUTION
     /**
-     * Constrctor.
+     * Constructor.
      */
     public Fraction(int numerator, int denominator) {
         // REPLACE WITH YOUR SOLUTION
+        num = numerator;
+        den = denominator;
     }
 
     /**
@@ -21,7 +25,7 @@ public class Fraction {
      */
     public int getNumerator() {
         // REPLACE WITH YOUR SOLUTION
-        return 0;
+        return num;
     }
 
     /**
@@ -30,7 +34,7 @@ public class Fraction {
      */
     public int getDenominator() {
         // REPLACE WITH YOUR SOLUTION
-        return 0;
+        return den;
     }
 
     /**
@@ -40,7 +44,10 @@ public class Fraction {
      */
     public double getDoubleValue() {
         // REPLACE WITH YOUR SOLUTION
-        return 0;
+        int divider = num / den;
+        double numDouble = (double) num;
+        double denDouble = (double) den;
+        return (double) (numDouble / denDouble);
     }
 
     /**
@@ -51,7 +58,7 @@ public class Fraction {
      */
     public String toString() {
         // REPLACE WITH YOUR SOLUTION
-        return null;
+        return String.valueOf(num) + "/" + String.valueOf(den);
     }
 
 }

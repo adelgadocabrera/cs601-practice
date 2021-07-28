@@ -15,6 +15,6 @@ public class SayHello {
      */
     public String sayHello(String name) {
         //REPLACE WITH YOUR SOLUTION
-        return null;
+        return "Hello, " + name + "!";
     }
 }

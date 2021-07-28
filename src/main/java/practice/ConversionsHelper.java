@@ -16,7 +16,8 @@ public class ConversionsHelper {
      */
     public double ouncesToGallons(int ounces) {
         //REPLACE WITH YOUR SOLUTION
-        return 0;
+        double ounceDouble = (double) (ounces);
+        return (double) ( ounceDouble / 128);
     }
 
     /**
@@ -28,6 +29,6 @@ public class ConversionsHelper {
      */
     public double cmToFeet(int cm) {
         //REPLACE WITH YOUR SOLUTION
-        return 0;
+        return (double) (cm / 30.48);
     }
 }
